@@ -1,0 +1,14 @@
+
+.hobbies__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.hobbies__box{
+    background: #FFFFFF;    
+    box-sizing: border-box;
+    width: 100%;    
+    padding: 1rem;
+    margin-right: 1rem;
+}

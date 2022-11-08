@@ -1,0 +1,15 @@
+.about{
+    font-family: 'Raleway';
+}
+.about__container{
+    padding: 7.3rem 33.5rem 8.25rem 9.5rem;
+}
+.about__title{    
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.about__paragraph{
+    font-weight: 400;
+      
+}
