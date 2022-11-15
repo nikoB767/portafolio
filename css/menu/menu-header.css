@@ -9,12 +9,12 @@
 .menu__title{
     vertical-align: top;
     font-size: 1rem;   
-    margin: 1rem;
+    margin: 0 auto;
     padding: 0 3rem; 
     display: inline;
 }
 
 .menu__header-imagen{
-    float: left;    
+    float: left;   
     
 }

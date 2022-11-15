@@ -1,0 +1,12 @@
+.formcontato__title{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+
+.formcontato__contacto{
+    display: flex;
+    margin: 0 9.5rem 0 9.5rem;
+}
+

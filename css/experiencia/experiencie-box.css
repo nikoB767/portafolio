@@ -1,12 +1,19 @@
 .experiencie__box{
     display: flex;
-    padding: 0 9.5rem 0 9.5rem;
+    margin: 0 9.5rem 1rem 9.0rem;
+    
+}
+
+.second{    
+    flex-direction: row-reverse;
 }
 
 .experience__info{
     align-self: center;
     font-weight: 700;
     font-size: 1.375rem;
+    text-align: left;
+    
 }
 
 .experience__text{
@@ -17,9 +24,17 @@
 .experiencia__botao--repo{
     padding: 1rem;
     font-size: 1rem;
+    
 }
 
 .experience__botao--demo{
     padding: 1rem;
     font-size: 1rem;
+    
+}
+
+.experience__img{
+    width: 72.198%;
+    height: 25.375em;
+    
 }
