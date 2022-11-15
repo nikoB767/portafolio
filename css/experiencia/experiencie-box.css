@@ -24,13 +24,16 @@
 .experiencia__botao--repo{
     padding: 1rem;
     font-size: 1rem;
-    
+    border-color: var(--color--botones);
+    color: var(--color--botones);
 }
 
 .experience__botao--demo{
     padding: 1rem;
     font-size: 1rem;
-    
+    background: var(--color--botones);
+    border: none;
+    color: var(--cor-de-fundo);  
 }
 
 .experience__img{

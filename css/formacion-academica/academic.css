@@ -1,3 +1,7 @@
+.academic{
+    background: var(--color--secundario);
+}
+
 .academic__title{
     text-align: center;
     font-weight: 700;

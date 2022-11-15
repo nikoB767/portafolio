@@ -1,5 +1,6 @@
 .about{
     font-family: 'Raleway';
+    background: var(--color--secundario);
 }
 .about__container{
     padding: 7.3rem 33.5rem 8.25rem 9.5rem;
