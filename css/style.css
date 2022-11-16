@@ -94,7 +94,8 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+    
 
 /* Menú */
 
@@ -112,6 +113,9 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Mobile*/
 @media (min-width: 425px) {
+    .tudo{
+        margin: 0 2rem 0 2rem;
+    }
 
 /*Menu*/
 

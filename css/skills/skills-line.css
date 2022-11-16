@@ -15,3 +15,13 @@
 .skills__name{
     font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+    .skills__line{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 224px 224px 224px;
+        grid-template-rows: 2;
+        gap: 1rem;
+    }
+}

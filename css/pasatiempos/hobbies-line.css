@@ -2,3 +2,13 @@
     display: flex;    
     padding: 0 9.5rem 0 9.5rem;    
 }
+
+@media only screen and (max-width: 768px){
+    .hobbies__line{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 224px 224px 224px;
+        grid-template-rows: 2;
+        gap: 1rem;
+    }
+}

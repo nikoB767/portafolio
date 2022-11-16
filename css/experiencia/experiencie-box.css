@@ -41,3 +41,32 @@
     height: 25.375em;
     
 }
+
+@media only screen and (max-width: 768px){
+    .experiencie__box{
+        flex-direction: column;
+        margin:0
+    }
+
+    .experience__info{
+        align-self:flex-start;
+        font-size: 1rem;
+    }
+
+    .experience__text{
+        font-size: 0.875rem;
+    }
+    
+    .experience__img{
+        height: 320px;
+        width: 100%;
+    }
+
+    .experiencia__botao--repo {
+        padding: 0.75rem 1rem 0.75rem 1rem ;
+    }
+
+    .experience__botao--demo{
+        padding: 0.75rem 1rem 0.75rem 1rem ;   
+    }
+}
