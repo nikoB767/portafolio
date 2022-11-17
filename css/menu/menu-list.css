@@ -27,7 +27,7 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 450px) {
     .menu{
         width: 100%;
     }
@@ -38,11 +38,16 @@
     
     .menu__list{
         padding: 0;
-        font-size: 0.875rem;
-        
+        font-size: 0.875rem;        
     }
 
     .menu__list__item{
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .menu__list{
+        font-size: 0.7rem;
     }
 }

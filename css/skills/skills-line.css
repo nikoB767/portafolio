@@ -26,7 +26,7 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 450px) {
     .skills__line{
         padding: 0;        
         grid-template-columns: 50% 50%;        

@@ -34,3 +34,15 @@
         width: 1rem;
     }
 }
+
+@media only screen and (max-width: 355px){
+    
+    .menu__title{
+        font-size: 0.8rem;
+    }
+
+    .menu__header-imagen{
+        height: 0.8rem;
+        width: 0.8rem;
+    }
+}
