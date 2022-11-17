@@ -19,7 +19,27 @@
     }
     
     .menu__list{
-        padding-right: 2rem;
+        padding-right: 0;
+    }
+
+    .menu__list__item{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .menu{
+        width: 100%;
+    }
+    
+    .no-tablet{
+        display: none;
+    }
+    
+    .menu__list{
+        padding: 0;
+        font-size: 0.875rem;
+        
     }
 
     .menu__list__item{
