@@ -29,3 +29,13 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .about__title{
+        font-size: 1.375rem;
+    }
+
+    
+
+}
+
+

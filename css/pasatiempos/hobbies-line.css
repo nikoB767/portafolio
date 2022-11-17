@@ -3,12 +3,41 @@
     padding: 0 9.5rem 0 9.5rem;    
 }
 
+.hobbies__box{
+    background: #FFFFFF;    
+    box-sizing: border-box;
+    width: 100%;    
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.hobbies__name{
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 768px){
     .hobbies__line{
         padding: 0;
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 2;
         gap: 1rem;
     }
+
+    .hobbies__box{
+        background: #FFFFFF;    
+        box-sizing: border-box;
+        width: 100%;    
+        padding: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .hobbies__line{
+        padding: 0;        
+        grid-template-columns: 50% 50%;        
+        gap: 1rem;
+    }
+
 }
