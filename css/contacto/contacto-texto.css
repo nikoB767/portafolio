@@ -24,5 +24,9 @@
 }
 
 @media only screen and (max-width: 768px){
-    
+    .formcontato__text{
+        margin-left: 0;
+    }       
+
+
 }
