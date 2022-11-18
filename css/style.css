@@ -116,9 +116,9 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (max-width: 425px) {
+@media (max-width: 450px) {
     .tudo{
-        margin: 0 ;
+        margin: 1rem ;
     }
    
 /*Menu*/

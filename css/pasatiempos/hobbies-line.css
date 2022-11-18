@@ -11,6 +11,12 @@
     margin-right: 1rem;
 }
 
+.hobbies__img{
+    width: 32px;
+    height: 30px;
+    
+}
+
 .hobbies__name{
     font-weight: 700;
 }
@@ -19,7 +25,7 @@
     .hobbies__line{
         padding: 0;
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 32% 32% 32%;
         grid-template-rows: 2;
         gap: 1rem;
     }
@@ -30,13 +36,14 @@
         width: 100%;    
         padding: 1rem;
         margin-right: 1rem;
-    }
+    }   
+    
 }
 
 @media only screen and (max-width: 450px) {
     .hobbies__line{
         padding: 0;        
-        grid-template-columns: 50% 50%;        
+        grid-template-columns: 48% 48%;        
         gap: 1rem;
     }
 

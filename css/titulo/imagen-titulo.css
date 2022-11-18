@@ -1,5 +1,6 @@
 .title__profile{
-    padding: 0rem 9.5rem 0rem 0rem  ;
+    width: 368px;
+    height: 368px;
 }
 
 @media only screen and (max-width: 768px) {
