@@ -61,10 +61,10 @@
                 <h3 class="title__subsection">Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="https://github.com/nikoB767">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="www.linkedin.com/in/nicolas-bustos-515109247">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="https://www.instagram.com/nicolas.bustos.61/">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/nikoB767" target="_blank" rel="noopener noreferrer">Github <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/nicolas-bustos-515109247" target="_blank" rel="noopener noreferrer" >Linkedin <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://www.instagram.com/nicolas.bustos.61/" target="_blank" rel="noopener noreferrer">Instagram <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://drive.google.com/file/d/15HPV7qwj6hcfkqLp4M406mc341fq2uCB/view?usp=share_link" target="_blank" rel="noopener noreferrer">Currículo <img src="assets\arrow.png"></a></li>
                 </ul>
             </div>
         </div>
@@ -133,19 +133,19 @@
     <section class="hobbies" id="hobbies">
         <h3 class="hobbies__title">Hobbies</h3>
             <div class="hobbies__line">
-                <div class="hobbies__box">
+                <!-- <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
                         <li class="hobbies__name"> Patinaje</li>
                     </ul>
-                </div>
+                </div> -->
 
-                <div class="hobbies__box">
+                <!-- <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
                         <li class="hobbies__name">Ejercicio</li>
                     </ul>
-                </div>
+                </div> -->
 
                 <div class="hobbies__box">
                     <ul>
@@ -213,31 +213,19 @@
         <h2 class="experience__section__title" >Experiencia profesional</h2>
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\decod_print.png">
+            <img class="experience__img" src="assets\decod_print2.png">
             <div class="experience__info"
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam" target="_blank" rel="noopener noreferrer"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href="https://nikob767.github.io/ChallengeONE_encriptador/encriptador/index.html" target="_blank" rel="noopener noreferrer"><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
         </div>  
 
-        <div class="experiencie__box second">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img " src="assets\forca_print.png">
-            <div class="experience__info"
-                <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
-            </div>
-        </div>              
+                     
 
         <!-- Sección de Contacto -->
         <section class="formcontato" id="contacto">
@@ -250,8 +238,8 @@
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required maxlength="50"  title="debe rellenar el campo">
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required title="Campo e-mail no debe estar en blanco o vacío, debe contener @">
                         <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
